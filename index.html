@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tracking System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/app.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style type="text/css">
+            body{overflow-x: hidden;}
+            .card{border-top-left-radius: 4px;border-top-right-radius: 4px;}
+            .user-icon{display: inline-block;width: 84px;height: 84px;}
+            .user-name{line-height: 3;font-size: 2rem;font-weight: 400;}
+            .user-icon-wrapper{background-color:#fff;width: 84px;height: 84px;min-height: 84px}
+            .team-text{text-align: center;font-weight: 600;font-size: 3rem;line-height: 5;}
+            .card-header{background-color: grey;border-top-left-radius: 4px !important;border-top-right-radius: 4px !important}
+            .social-icons span.fa-facebook{padding: 0.5rem 0.6rem!important}
+            .social-icons span.fa{border-radius: 0!important;display: inline-block;padding: 0.5rem;}
+            .social-icons{text-align: center}
+            .btn{border-radius: 0;color: #fff;}
+            .card-body{padding: 5rem 1.25rem;}
+            #ourteam h4{line-height: 2}
+            .navbar{text-transform: uppercase;border-radius: 0;padding: 0}
+            .icon-playstore{fill: #fff;}
+            .fa-apple, .fa-google-play{color: #fff;}
+            .fa-apple{vertical-align: bottom;}
+            .download-icons a{display: inline-block; margin-left: 5px;margin-right: 5px;}
+            span.btn:hover{cursor: default!important}
+            .btn-like{margin-bottom: 0;font-weight: 400;text-align: center;white-space: nowrap;vertical-align: middle;background-color: #fff; color: #333;border:none;border-radius: 0;}
+            #home{position: relative; background-color: grey; min-height: 500px;max-height: 500px;background-image: url(images/JUTC2.jpg);background-position:  0 50px; background-repeat: no-repeat;background-size: cover}
+            #inner_content{position: absolute;left: 0;top: 45%;padding: 1rem;}
+            h1{font-size: 2rem;}
+            #inner_content p{text-align: left;line-height: 1.2}
+            .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:hover{color: #444;}
+           
+            @media (min-width: 768px) {
+                h1{font-size: 36px;}
+                #inner_content{position: absolute; top: 25%;left: 35%}
+                #inner_content p{text-align: left;line-height: 2}
+            }
+        </style>
+    </head>
+    <body data-target=".nabvbar">
+        <nav class="navbar navbar-expand-md bg-white navbar-dark fixed-top">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourteam">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourwork">What we offer</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#app">The App</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container-fluid" style="padding: 0">
+            <section id="home">
+                <div id="inner_content" style="">
+                    <h1 style="line-height: 1.2">Bus Tracking Mobile App</h1>
+                    <p>A mobile app for users to track the location of a JUTC bus</p>
+                    <div class="mt-3">
+                        <span class="btn d-inline-block btn-like">GET THE APP <span class="fa fa-arrow-right"></span></span>
+                        <div style="display: inline-block" class="download-icons">
+                            <a title="Apple Store" href="#"><span class="fa fa-apple" style="color: #fff;font-size: 24px;"></span></a>
+                            <a title="Playstore" href="#"><img src="images/play.svg" class="fa" style="display: inline-block;width: 24px;height: 24px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="ourteam" class="mt-4 p-4 mb-4">
+                <div class="team-text">OUR TEAM</div>
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="text-center">
+                                    <div class="user-icon-wrapper rounded-circle d-inline-block mt-3 mb-3">
+                                        <a data-toggle="modal" data-target="#mmodal1" ><img id="myImg" class="user-icon rounded-circle" src="images/vidal.jpg" alt="app"></a>
+                                        <div class="modal fade" id="mmodal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                  <h5 class="modal-title">Web Developer/Software Analyst</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <img class="img-fluid" src="images/vidal.jpg" alt="app">
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="user-name">Vidal Mckenley</div>
+                                <div class="social-icons">
+                                    <a href="#"><span class="fa fa-twitter"></span></a>
+                                    <a href="#"><span class="fa fa-facebook"></span></a>
+                                    <a href="#"><span class="fa fa-instagram"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="text-center">
+                                    <div class="user-icon-wrapper rounded-circle d-inline-block mt-3 mb-3">
+                                        <a data-toggle="modal" data-target="#mmodal2" ><img id="myImg" class="user-icon rounded-circle" src="images/fetty.jpg" alt="app"></a>
+                                        <div class="modal fade" id="mmodal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title">Web Developer/Business Analyst</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <img class="img-fluid" src="images/fetty.jpg" alt="app">
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="user-name">Roshaine Scott</div>
+                                <div class="social-icons">
+                                    <a href="#"><span class="fa fa-twitter"></span></a>
+                                    <a href="#"><span class="fa fa-facebook"></span></a>
+                                    <a href="#"><span class="fa fa-instagram"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <div class="text-center">
+                                    <div class="user-icon-wrapper rounded-circle d-inline-block mt-3 mb-3">
+                                        <a data-toggle="modal" data-target="#mmodal3" ><img id="myImg" class="user-icon rounded-circle" src="images/Alex.jpg" alt="app"></a>
+                                        <div class="modal fade" id="mmodal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                  <h5 class="modal-title">Web Developer/Software Analyst</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <img class="img-fluid" src="images/Alex.jpg" alt="app">
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="user-name">Alex Anderson</div>
+                                <div class="social-icons">
+                                    <a href="#"><span class="fa fa-twitter"></span></a>
+                                    <a href="#"><span class="fa fa-facebook"></span></a>
+                                    <a href="#"><span class="fa fa-instagram"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="text-center">
+                                    <div class="user-icon-wrapper rounded-circle d-inline-block mt-3 mb-3">
+                                        <a data-toggle="modal" data-target="#mmodal4" ><img id="myImg" class="user-icon rounded-circle" src="images/luciano.jpg" alt="app"></a>
+                                        <div class="modal fade" id="mmodal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                              <h5 class="modal-title">Web-App Developer</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <img class="img-fluid" src="images/luciano.jpg" alt="app">
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="user-name">Luciano Gordon</div>
+                                <div class="social-icons">
+                                    <a href="#"><span class="fa fa-twitter"></span></a>
+                                    <a href="#"><span class="fa fa-facebook"></span></a>
+                                    <a href="#"><span class="fa fa-instagram"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ourwork" class="mb-4">
+                <div class="row text-center justify-content-center">
+                    <div class="team-text">WHAT WE OFFER</div>
+                    <!--
+                    <p style="color: #444;"> A MOBILE APPLICATION THAT WILL ENABLE USERS TO TRACK /OBSERVE THE CURRENT LOCATION OF THE BUS. FURTHERMORE, USERS WILL ALSO BE ABLE TO SEE THE BUS PROJECTED ARRIVAL TIME AND DISTANCE AWAY FROM USER. </p>
+                    <a class="btn btn-primary mt-4" style="color:#fff;">Read MORE</a>
+                    -->
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <div class="row">
+                                <div class="col-12 col-md-4" style="color: #444;">
+                                    <div style="padding: 0.5rem;">
+                                        <h4 style="line-height: 3"><span class="fa fa-check" style="color: green; font-size: 2rem;"></span> REALTIME TRACKING</h4>
+                                        <p style="color: #444;text-align: justify">
+                                            The BusNav tracking app provides the user with a live feedback of the bus's movement allowing them to see the exact location of a JUTC bus.
+                                            
+                                        </p>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4" style="color: #444;">
+                                    <div style="padding: 0.5rem;">
+                                        <h4 style="line-height: 3"><span class="fa fa-check" style="color: green; font-size: 2rem;"></span> SIMPLE USER INTERFACE</h4>
+                                        <p style="color: #444;text-align: justify">
+                                            Equipped with an easy-to-use interface that allows users to explore and use the app's features effectively.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4" style="color: #444;">
+                                    <div style="padding: 0.5rem;">
+                                        <h4 style="line-height: 3"><span class="fa fa-check" style="color: green; font-size: 2rem;"></span> SPEED AND EFFICIENCY</h4>
+                                        <p style="color: #444;text-align: justify">
+                                            The app is lightweight and runs smoothly on any mobile device.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="app" style="margin-top: 5rem;margin-bottom: 2rem">
+                <div class="team-text">The APP</div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <a data-toggle="modal" data-target="#modal1" ><img id="myImg" class="img-fluid" src="images/app3_375x480.jpg" alt="app"></a>
+                                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img class="img-fluid" src="images/app3_375x480.jpg" alt="app">
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a data-toggle="modal" data-target="#modal2" ><img id="myImg" class="img-fluid" src="images/location.png" alt="app"></a>
+                                <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <img class="img-fluid" src="images/location.png" alt="app">
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <a data-toggle="modal" data-target="#modal3" ><img id="myImg" class="img-fluid" src="images/map.png" alt="app"></a>
+                                <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <img class="img-fluid" src="images/map.png" alt="app">
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                            </div>
+                        </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="p-4"><strong>GET THE APP</strong></div>
+                            <button title="Apple Store" class="btn btn-primary mr-4"><span class="fa fa-apple" style="font-size: 24px"></span></button>
+                            <button title="PlayStore" class="btn btn-primary"><img src="images/play.svg" class="fa" style="display: inline-block;width: 24px;height: 24px;"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer style="padding: 2rem; background-color: #444;color:#fff;">
+                <div>&copy;2019 BusNav System</div>
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script type="text/javascript">
+                $( '.carousel' ).carousel();
+            </script>
+        </div>
+    </body>
+</html>
